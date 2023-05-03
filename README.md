@@ -10,21 +10,7 @@ In our project, we utilized an Ubuntu server using version 20.04 LTS (t2.micro t
 
 In order to enhance security for server root access, we used the amazons key pair to securely connect to our instance using OpenSSH with RSA encryption.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/58dca75-image.png",
-        null,
-        ""
-      ],
-      "align": "left",
-      "sizing": "400px"
-    }
-  ]
-}
-[/block]
+![](https://files.readme.io/58dca75-image.png)
 
 
 
@@ -40,23 +26,7 @@ Security groups act as a firewall that are setup to only allow traffic from spec
 
 In our project we used AWS's Route 53 service to setup a custom domain and point our instance's public IP address to redirect and route traffic to it.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f0e0adb-image.png",
-        null,
-        ""
-      ],
-      "align": "left",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
-
-
+![](https://files.readme.io/f0e0adb-image.png)
 
 Once the type A DNS record is created with our instance public IP, we waited for Route 53 to propagate so we can utilize the server through the domain[` https://team1search.com/`](https://team1search.com/).
 
